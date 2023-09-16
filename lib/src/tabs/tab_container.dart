@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tricbuzz/src/components/squared_avatar.dart';
 import 'package:tricbuzz/src/matches/matches_list_view.dart';
+import 'package:tricbuzz/src/squads/squads_list_view.dart';
 
 class TabContainer extends StatelessWidget {
   const TabContainer({super.key});
@@ -33,7 +34,7 @@ class TabContainer extends StatelessWidget {
           body: TabBarView(children: [
             MatchesListView(),
             Icon(Icons.directions_transit),
-            Icon(Icons.directions_bike),
+            SquadsListView(),
             Icon(Icons.directions_bike)
           ])),
     );
