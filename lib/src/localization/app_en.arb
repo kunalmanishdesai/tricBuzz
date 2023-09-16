@@ -1,0 +1,6 @@
+{
+  "appTitle": "tricbuzz",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
