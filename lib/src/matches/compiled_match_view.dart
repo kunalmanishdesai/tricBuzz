@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tricbuzz/src/components/squared_avatar.dart';
-import 'package:tricbuzz/src/matches/compiled_match_dto.dart';
 
 class CompiledMatchView extends StatelessWidget {
-  CompiledMatchView({super.key, required this.match});
+  const CompiledMatchView({super.key, required this.match});
 
-  CompiledMatch match;
+  final match;
 
   @override
   Widget build(BuildContext context) {
